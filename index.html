@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <section class="hero is-medium is-bold is-info ">
+  <section class="hero is-medium is-bold is-dark ">
    <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
@@ -26,13 +26,13 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item">
+        <a href="#projects" class="navbar-item">
           Projects
         </a>
-        <a class="navbar-item">
-          About
+        <a href="#about" class="navbar-item">
+          WriteUps
         </a>
-        <a class="navbar-item">
+        <a href="#contact"class="navbar-item">
           Contact
         </a>
       </div>
@@ -47,7 +47,7 @@
       <h2 class="subtitle">
         Full Stack Web developer, enthusiasts in linux and cloud environment
       </h2>
-      <a href="#" id="contactbtn">Contact</a>
+      <a href="#contact" id="contactbtn">Contact</a>
     </div>  
   </div>
 </section>
@@ -60,10 +60,10 @@
     <h1 class="title is-4">Under Graduate Computer Science Engineer</h1>
     <p class="subtitle">From Mount zion college,Expertise in Full Stack web developement and Linux System Administration</p>
     <article class="message is-link">
-        <div class="message-body">
-          <a href="#"><h1 class="title is-4">View Resume</h1> </a>         
-        </div>
-      </article>
+      <div class="message-body">
+        <a target="_blank" href="#"><h1 class="title is-4">View Resume</h1> </a>         
+      </div>
+    </article>
   </div>
 
   <div class="column">
@@ -81,7 +81,7 @@
   </div>
 </div>
 <hr>
-<h1 class="title is-2 has-text-centered">Projects</h1>
+<a name="projects"><h1  class="title is-2 has-text-centered">Projects</h1></a>
 
 <div>
   <div class="columns projects">
@@ -90,7 +90,7 @@
         <div class="message-body">
           <h1 class="title">Fiery Watch</h1>
           <p>A Web Application can mark a location on the map, and alert when a client enters near a proximity</p>  
-          <a href="#">View Source Code</a>          
+          <a target="_blank" href="https://github.com/naveen1337/fiery_watch">View Source Code</a>          
         </div>
       </article>
     </div>
@@ -100,7 +100,7 @@
         <div class="message-body">
           <h1 class="title">Cognitive Analytica</h1>
           <p>Recommeder system, based on collobartive filtering and pschographics values. suitable for lightwight applications</p>     
-          <a href="#">View Source Code</a>          
+          <a target="_blank" href="https://github.com/naveen1337/cognitive-analytica">View Source Code</a>          
         </div>
       </article>
     </div>
@@ -112,62 +112,75 @@
         <div class="message-body">
           <h1 class="title">Wired Market Space</h1>
           <p>Full Featured E commerce solution build on Headless Architecture,Highly Cost effective and easy to scalab</p>     
-          <a href="#">View Source Code</a>          
+          <a target="_blank" href="https://github.com/naveen1337/wired_loop">View Source Code</a>          
         </div>
       </article>
     </div>
   </div>
 </div>
 
-<div class="contact">
+<a name="contact"><div  class="contact"></a>
   <h1 class="title is-2 has-text-centered">Contact</h1>
   <div class="columns">
-    <div class="column">
-      HELLO
+    <div class="column social">
+      <a target="_blank" href="https://github.com/naveen1337"> <img width="50px" src="./imgs/github.png"></a>
+     <a target="_blank" href="https://www.linkedin.com/in/naveenmicheal/"> <img width="50px" src="./imgs/lkd.png"></a>
+     <a target="_blank" href="https://twitter.com/Naveenmichealj"> <img width="50px" src="./imgs/t.png"></a>
+
+<!--     <article style="margin-top:50px; padding:" class="message is-link">
+    <div class="message-header">
+      <p>Status</p>
     </div>
+    <div style="padding:5px" id="status" lass="message-body">
+      
+    </div>
+  </article> -->
 
-    <div class="column">
-      <form method="post" action="/">
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" required type="text" placeholder="e.g Alex Smith">
-          </div>
-        </div>
+   </div>
 
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control">
-            <input class="input" required type="email" placeholder="e.g. alexsmith@gmail.com">
-          </div>
-        </div>
 
-        <div class="field">
-          <label class="label">Subject</label>
-          <div class="control">
-            <input class="input" required type="email" placeholder="Subject ...">
-          </div>
-        </div>
-
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-           <textarea class="textarea" placeholder="Message"></textarea>
-         </div>
-       </div>
-
-       <div class="field-body">
-        <div class="field">
-          <div class="control">
-            <button class="button is-link is-light is-outlined">
-              Send message
-            </button>
-          </div>
+  <div class="column">
+    <form method="post" action="https://formcarry.com/s/m7RfRaXMZgjm">
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" required type="text" placeholder="e.g Alex Smith">
         </div>
       </div>
 
-    </form>
-  </div>
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" required type="email" placeholder="e.g. alexsmith@gmail.com">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <input class="input" required type="text" placeholder="Subject ...">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+         <textarea class="textarea" placeholder="Message"></textarea>
+       </div>
+     </div>
+
+     <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <button class="button is-link is-light is-outlined">
+            Send message
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</div>
 </div>
 </div>
 </div>

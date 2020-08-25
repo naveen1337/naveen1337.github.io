@@ -5,3 +5,7 @@ navb.addEventListener('click',()=>{
 	navb.classList.toggle("is-active");
 	dnav.classList.toggle("is-active")
 })
+
+let data = fetch('https://raw.githubusercontent.com/naveen1337/__public-share/master/status.json')
+.then(data=>data.json())
+.then(a=>document.getElementById('status').innerText=a.task)
