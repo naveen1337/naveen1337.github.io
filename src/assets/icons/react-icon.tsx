@@ -4,8 +4,7 @@ export default function ReactIcon() {
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="100"
-      height="100"
+      className="w-[75px] h-[75px] md:w-[100px] md:h-[100px]"
       viewBox="0 0 50 50"
       fill="#00CDF2"
     >

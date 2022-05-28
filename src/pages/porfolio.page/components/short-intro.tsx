@@ -5,19 +5,15 @@ import RedHatIcon from "../../../assets/icons/red-hat-icon";
 
 export default function ShortIntro(props: any) {
   return (
-    <div className="relative bottom-[80px] grid grid-cols-12 gap-4">
-      <div className="col-span-6 px-20">
-        <div className="inline-block">
-          <p className="text-[28px] tracking-widest inline-block  pt-2 text-white">
-            About Me
-          </p>
-          <div className="bg-gradient-to-r from-secondary  to-primary rounded h-1 ease-linear "></div>
+    <div className={ss.root}>
+      <div className={ss.block1}>
+        <div className={ss.headingBlock}>
+          <p className={ss.heading}>About Me</p>
+          <div className={ss.border}></div>
         </div>
 
-        <p className="text-xl py-4 font-med text-white">
-          Under Graduate Computer Science Engineer
-        </p>
-        <p className="text-lg pb-4 text-white">
+        <p className={ss.mainTitle}>Under Graduate Computer Science Engineer</p>
+        <p className={ss.content}>
           Expertise in Full Stack web developement, React Native and Linux
           System Administration
         </p>
@@ -27,7 +23,7 @@ export default function ShortIntro(props: any) {
         </p>
       </div>
 
-      <div className="col-span-6 flex items-center justify-around">
+      <div className={ss.block2}>
         <Nodeicon />
         <MySQLIcon />
         <ReactIcon />
@@ -35,3 +31,14 @@ export default function ShortIntro(props: any) {
     </div>
   );
 }
+
+const ss = {
+  root: "relative bottom-[80px] grid grid-cols-12 gap-4 bg-gradient-to-r from-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.2)] md:py-4",
+  block1: "col-span-12 md:col-span-6 px-6 md:px-20",
+  headingBlock: "inline-block",
+  heading: "text-[22px] md:text-[28px] tracking-widest inline-block  pt-2 text-white",
+  border: "bg-gradient-to-r from-secondary to-primary rounded h-1 ease-linear",
+  mainTitle: "text-xl py-4 font-med text-white",
+  content: "text-lg pb-4 text-white",
+  block2: "col-span-12 md:col-span-6 flex items-center justify-around",
+};

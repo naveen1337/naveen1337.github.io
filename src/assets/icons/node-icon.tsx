@@ -4,8 +4,7 @@ export default function Nodeicon() {
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="108"
-      height="108"
+      className="w-[75px] h-[75px] md:w-[108px] md:h-[108px]"
       viewBox="0 0 16 16"
       fill="#7CC327"
     >

@@ -1,39 +1,34 @@
+import SignatreIcon from "../../assets/icons/signature-icon";
+
 export default function NavBar(props: any) {
   return (
-    <div
-      className="border-b grid grid-cols-12 border-gray-600"
-      style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
-    >
-      <div className="col-span-1 border-r border-gray-600 pt-4">
-        <div className="">
-          <p className="text-white text-[48px] text-center font-med font-bold">
-            N7
-          </p>
+    <div className={ss.root} style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+      <div className={ss.block1}>
+        <div>
+          <SignatreIcon />
         </div>
       </div>
 
-      <div className="col-span-10 flex justify-center space-x-16">
-      
-
-        <div className="border-b-4  pt-8 px-6 border-primary cursor-pointer">
+      <div className={ss.block2}>
+        <div className={ss.linkC}>
           <a className={ss.link} href="#">
             Projects
           </a>
         </div>
 
-        <div className="border-b-4  pt-8 px-6 border-primary cursor-pointer">
+        <div className={ss.linkC}>
           <a className={ss.link} href="#">
             Contact
           </a>
         </div>
 
-        <div className="border-b-4  pt-8 px-6 border-primary cursor-pointer">
+        <div className={ss.linkC}>
           <a className={ss.link} href="#">
             Blog
           </a>
         </div>
       </div>
-      <div className="col-span-1 border-l border-gray-600 flex items-center justify-center">
+      <div className={ss.block3}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8"
@@ -54,5 +49,13 @@ export default function NavBar(props: any) {
 }
 
 const ss = {
+  root: "border-b grid grid-cols-12 border-gray-600",
+  block1:
+    "col-span-12 md:col-span-1 border-r border-gray-600 pt-2 md:pt-4 flex md:justify-center",
   link: "font-semibold tracking-widest uppercase text-gray-200 ",
+  block2: "col-span-10 hidden md:flex justify-center space-x-16",
+  block3:
+    "col-span-1 border-l border-gray-600 hidden md:flex items-center justify-center",
+  linkC:
+    "border-b-4 hover:bg-[#5922F766] transition ease-in md:p-4 border-primary cursor-pointer",
 };

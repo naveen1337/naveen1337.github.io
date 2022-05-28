@@ -4,8 +4,7 @@ export default function MySQLIcon() {
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="150"
-      height="150"
+      className="w-[100px] h-[100px] md:w-[150px] md:h-[150px]"
       viewBox="0 0 50 50"
       fill="#4479A1"
     >
