@@ -18,7 +18,7 @@ export default function ShortIntro(props: any) {
           System Administration
         </p>
 
-        <p className="text-lg text-white">
+        <p className="text[20px] md:text-lg text-white">
           Currently working as a React.js Developer at sabbatech
         </p>
       </div>

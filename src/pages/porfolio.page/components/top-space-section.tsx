@@ -2,7 +2,12 @@ export default function TopSpaceSection() {
   return (
     <div className={ss.root}>
       <div className={ss.container}>
-        <div className={ss.elementContainer}>
+        <div
+          onClick={() => {
+            window.open("https://github.com/naveen1337", "_blank");
+          }}
+          className={ss.elementContainer}
+        >
           <svg
             className={ss.icon}
             viewBox="0 0 24 24"
@@ -15,7 +20,12 @@ export default function TopSpaceSection() {
             />
           </svg>
         </div>
-        <div className={ss.elementContainer}>
+        <div
+          onClick={() => {
+            window.open("https://twitter.com/naveen1337", "_blank");
+          }}
+          className={ss.elementContainer}
+        >
           <div>
             <svg
               className={ss.icon}
@@ -30,7 +40,12 @@ export default function TopSpaceSection() {
             </svg>
           </div>
         </div>
-        <div className={ss.elementContainer}>
+        <div
+          onClick={() => {
+            window.open("https://www.linkedin.com/in/naveen1337/", "_blank");
+          }}
+          className={ss.elementContainer}
+        >
           <div className="">
             <svg
               className={ss.icon}
@@ -60,7 +75,7 @@ const ss = {
   root: "grid grid-cols-12 items-end border-b border-gray-600",
   container:
     "col-span-12 flex flex-row   space-x-3 md:space-x-0 md:flex-col md:col-span-1  border-r py-2 px-6 border-gray-600 ",
-  elementContainer: "flex items-center justify-center",
+  elementContainer: "flex items-center cursor-pointer justify-center",
   icon: "w-6 h-6 md:h-8 md:w-8",
   emptySpace1: "col-span-0 hidden md:col-span-6 md:block",
   infobox: "col-span-0 hidden md:col-span-5 md:block",

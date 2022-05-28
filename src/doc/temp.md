@@ -8,3 +8,5 @@
       }
       ```
 ````
+
+npm run deploy ---repo git@naveen1337:naveen1337/naveen1337.github.io.git

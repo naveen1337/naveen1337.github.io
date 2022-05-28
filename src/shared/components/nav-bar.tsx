@@ -33,8 +33,15 @@ export default function NavBar(props: any) {
           </a>
         </div>
       </div>
-      <div className={ss.block3}>
-        <svg
+      <div
+        onClick={() => {
+          navigator.share({
+            url:"https://naveen1337.github.io"
+          })
+        }}
+        className={ss.block3}
+      >
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8"
           fill="none"
@@ -47,7 +54,7 @@ export default function NavBar(props: any) {
             stroke-linejoin="round"
             d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
           />
-        </svg>
+        </svg> */}
       </div>
     </div>
   );
@@ -60,7 +67,7 @@ const ss = {
   link: "font-semibold tracking-widest uppercase text-gray-200 ",
   block2: "col-span-10 hidden md:flex justify-center space-x-16",
   block3:
-    "col-span-1 border-l border-gray-600 hidden md:flex items-center justify-center",
+    "col-span-1 cursor-pointer border-l border-gray-600 hidden md:flex items-center justify-center",
   linkC:
     "border-b-4 hover:bg-[#5922F766] transition ease-in md:p-4 border-primary cursor-pointer",
 };
