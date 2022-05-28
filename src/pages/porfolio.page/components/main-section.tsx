@@ -1,7 +1,7 @@
 export default function MainSection() {
   return (
     <div>
-      <div className="grid grid-cols-12 ">
+      <div className="grid grid-cols-12">
         <div className="col-span-1 border-r border-gray-600"></div>
         <div className="col-span-11 pt-12 pb-36 bg-gradient-to-r from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.8)]   to-[rgba(0,0,0,0.2)] border-gray-600">
           <p

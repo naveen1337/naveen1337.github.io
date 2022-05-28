@@ -1,6 +1,6 @@
 export default function TopSpaceSection() {
   return (
-    <div className="grid grid-cols-12  border-b border-gray-600 ">
+    <div className="grid grid-cols-12 items-end border-b border-gray-600 ">
       <div className="col-span-1  border-r py-2 border-gray-600 ">
         <div className="py-2 flex items-center justify-center">
           <div>
@@ -51,8 +51,12 @@ export default function TopSpaceSection() {
           </div>
         </div>
       </div>
-      <div className="col-span-10"></div>
-      <div className="col-span-1"></div>
+      <div className="col-span-6"></div>
+      <div className="col-span-5">
+        <p className="text-white px-4 uppercase text-base font-medium py-4 tracking-widest text-right">
+          Last updated on <span className="text-primary font-bold"> 31 May 2022</span>
+        </p>
+      </div>
     </div>
   );
 
