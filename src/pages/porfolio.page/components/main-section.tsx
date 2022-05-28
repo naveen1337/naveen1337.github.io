@@ -8,9 +8,11 @@ export default function MainSection() {
           <p className={ss.info}>Full Stack Developer (MERN) & React Native</p>
         </div>
       </div>
-      <div className={ss.btn}>
-        <p className={ss.btntxt}>Contact</p>
-      </div>
+      <a target="_blank" href="mailto:naveen1337@outlook.com">
+        <div className={ss.btn}>
+          <p className={ss.btntxt}>Contact</p>
+        </div>
+      </a>
     </div>
   );
 }

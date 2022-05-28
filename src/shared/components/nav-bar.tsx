@@ -21,7 +21,7 @@ export default function NavBar(props: any) {
           <a
             className={ss.link}
             target="_blank"
-            href="mailto:naveem1337@outlook.com"
+            href="mailto:naveen1337@outlook.com"
           >
             Contact
           </a>

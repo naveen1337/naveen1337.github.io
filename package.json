@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist git@naveen1337:naveen1337/naveen1337.github.io.git"
   },
   "homepage": "https://naveen1337.github.io/naveem1337.github.io",
   "dependencies": {
