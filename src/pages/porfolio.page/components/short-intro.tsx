@@ -38,7 +38,7 @@ const ss = {
   headingBlock: "inline-block",
   heading: "text-[22px] md:text-[28px] tracking-widest inline-block  pt-2 text-white",
   border: "bg-gradient-to-r from-secondary to-primary rounded h-1 ease-linear",
-  mainTitle: "text-xl py-4 font-med text-white",
-  content: "text-lg pb-4 text-white",
+  mainTitle: "text[20px] md:text-xl py-4 font-med text-white",
+  content: "text[20px] md:text-lg pb-4 text-white",
   block2: "col-span-12 md:col-span-6 flex items-center justify-around",
 };

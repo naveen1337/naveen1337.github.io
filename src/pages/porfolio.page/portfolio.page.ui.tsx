@@ -1,5 +1,5 @@
 import NavBar from "../../shared/components/nav-bar";
-import img from "../../assets/img/bg.jpg";
+import img from "../../assets/img/bg.webp";
 import TopSpaceSection from "./components/top-space-section";
 import MainSection from "./components/main-section";
 import ShortIntro from "./components/short-intro";
@@ -12,7 +12,7 @@ export default function PortFolioPageUI(props: any) {
       <div
         className={ss.bg}
         style={{
-          backgroundImage: "url(./src/assets/img/bg.webp)",
+          backgroundImage: `url(${img})`,
           height: "100%",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

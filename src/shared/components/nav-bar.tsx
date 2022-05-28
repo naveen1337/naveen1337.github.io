@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SignatreIcon from "../../assets/icons/signature-icon";
 
 export default function NavBar(props: any) {
@@ -11,13 +12,17 @@ export default function NavBar(props: any) {
 
       <div className={ss.block2}>
         <div className={ss.linkC}>
-          <a className={ss.link} href="#">
+          <Link to={"/#projects"} className={ss.link}>
             Projects
-          </a>
+          </Link>
         </div>
 
         <div className={ss.linkC}>
-          <a className={ss.link} href="#">
+          <a
+            className={ss.link}
+            target="_blank"
+            href="mailto:naveem1337@outlook.com"
+          >
             Contact
           </a>
         </div>

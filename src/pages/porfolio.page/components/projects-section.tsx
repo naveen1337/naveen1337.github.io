@@ -2,7 +2,7 @@ import ProjectCard from "./project-card";
 
 export default function ProjectsSection() {
   return (
-    <div className={ss.root}>
+    <div id="#projects" className={ss.root}>
       <div className="inline-block pb-2">
         <p className="text-[24px] md:text-[28px]  tracking-widest pt-2 text-white">
           Projects
