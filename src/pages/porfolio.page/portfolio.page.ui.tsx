@@ -8,7 +8,7 @@ export default function PortFolioPageUI(props: any) {
     <div
       className={ss.bg}
       style={{
-        backgroundImage: "url(./src/assets/img/bg.jpg)",
+        backgroundImage: "url(./src/assets/img/bg.webp)",
         height: "100%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
