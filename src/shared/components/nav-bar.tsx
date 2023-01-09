@@ -28,8 +28,8 @@ export default function NavBar(props: any) {
         </div>
 
         <div className={ss.linkC}>
-          <a className={ss.link} href="#">
-            Blog
+          <a className={ss.link} href="/Naveen-Resume-16-12-2022.pdf">
+            Resume
           </a>
         </div>
       </div>
