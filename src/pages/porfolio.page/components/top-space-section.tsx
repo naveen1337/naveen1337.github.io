@@ -64,7 +64,7 @@ export default function TopSpaceSection() {
       <div className={ss.emptySpace1}></div>
       <div className={ss.infobox}>
         <p className={ss.luptxt}>
-          Last updated on <span className={ss.date}> 31 May 2022</span>
+          Last updated on <span className={ss.date}> 2 September 2023</span>
         </p>
       </div>
     </div>

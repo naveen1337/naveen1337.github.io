@@ -11,11 +11,11 @@ export default function NavBar(props: any) {
       </div>
 
       <div className={ss.block2}>
-        <div className={ss.linkC}>
-          <Link to={"/#projects"} className={ss.link}>
+        {/* <div className={ss.linkC}>
+          <Link to={"#projects"} className={ss.link}>
             Projects
           </Link>
-        </div>
+        </div> */}
 
         <div className={ss.linkC}>
           <a
@@ -28,8 +28,8 @@ export default function NavBar(props: any) {
         </div>
 
         <div className={ss.linkC}>
-          <a className={ss.link} href="/Naveen-Resume-16-12-2022.pdf">
-            Resume
+          <a className={ss.link} target="_blank" href="https://github.com/naveen1337">
+            Github
           </a>
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function MainSection() {
         <div className={ss.fspace}></div>
         <div className={ss.sspace}>
           <p className={ss.name}>Naveen</p>
-          <p className={ss.info}>Full Stack Developer (MERN) & React Native</p>
+          <p className={ss.info}>Full Stack Developer & React Native</p>
         </div>
       </div>
       <a target="_blank" href="mailto:naveen1337@outlook.com">
