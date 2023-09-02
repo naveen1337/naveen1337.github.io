@@ -19,7 +19,7 @@ export default function ShortIntro(props: any) {
         </p>
 
         <p className="text[20px] md:text-lg text-white">
-          Currently working as a React.js Developer at sabbatech
+          Currently working as a Full stack Developer at Verizon Data Service India
         </p>
       </div>
 
