@@ -71,6 +71,6 @@ export default function Accounts() {
     emptySpace1: "col-span-0 hidden md:col-span-6 md:block",
     infobox: "col-span-0 hidden md:col-span-5 md:block",
     luptxt:
-      "text-white px-4 uppercase text-base font-medium py-4 tracking-widest text-right",
+      "text-white px-4 uppercase text-base font-primary py-4 tracking-widest text-right",
     date: "text-primary font-bold",
   };

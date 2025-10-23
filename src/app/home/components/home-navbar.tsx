@@ -8,10 +8,11 @@ const links = [
         "href": "/projects",
     },
     {
-        "key": "contact",
-        "value": "Contact",
-        "href": "#contact",
-    }, {
+        "key": "blog",
+        "value": "Blog",
+        "href": "/blog",
+    },
+    {
         "key": "github",
         "value": "github",
         "href": "https://github.com/naveen1337",
@@ -34,7 +35,7 @@ export default function NavBar(props: any) {
                     links.map((item: any) => {
                         return (
                             <div key={item.key} className="border-b-4 hover:bg-[#5922F766] transition ease-in md:p-4 border-primary cursor-pointer">
-                                <Link target={item.target} href={item.href} className="tracking-widest uppercase text-white">
+                                <Link target={item.target} href={item.href} className="tracking-wider uppercase font-primary text-white">
                                     {item.value}
                                 </Link>
                             </div>

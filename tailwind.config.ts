@@ -1,25 +1,14 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  mode: 'jit',
+  mode: "jit",
   content: [
     "./src/shared-ui/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     fontFamily: {
-      regular: "Montserrat-Regular",
-      medium: "Montserrat-Med",
-    },
-    fontSize: {
-      "xss": ["12px", "18px"],
-      "xs": ["14px", "20px"],
-      "sm": ["16px", "22px"],
-      "base": ["18px", "24px"],
-      "lg": ["24px", "28px"],
-      "xl": ["26px", "32px"],
-      "2xl": ["28px", "35px"],
-      "3xl": ["32px", "38px"],
+      primary: ["var(--font-montserrat)"],
     },
     extend: {
       colors: {
