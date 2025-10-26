@@ -55,7 +55,7 @@ export default function Accounts() {
         <div className={ss.emptySpace1}></div>
         <div className={ss.infobox}>
           <p className={ss.luptxt}>
-            Last updated on <span className={ss.date}>  12 Jan 2025</span>
+            Last updated on <span className={ss.date}>  25 October 2025</span>
           </p>
         </div>
       </div>
@@ -72,5 +72,5 @@ export default function Accounts() {
     infobox: "col-span-0 hidden md:col-span-5 md:block",
     luptxt:
       "text-white px-4 uppercase text-base font-primary py-4 tracking-widest text-right",
-    date: "text-primary font-bold",
+    date: "text-secondary font-bold",
   };

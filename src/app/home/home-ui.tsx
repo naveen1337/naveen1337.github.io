@@ -3,6 +3,8 @@ import Accounts from "./components/accounts";
 import AriticleList from "./components/ArticlesList";
 import HomeNavBar from "./components/home-navbar";
 import MainSection from "./components/main-section";
+import ReadingListSection from "./components/ReadingList";
+import SectionTitle from "@/shared-ui/atoms/SectionTitle";
 
 export default function Home() {
   return (
@@ -20,44 +22,38 @@ export default function Home() {
         <Accounts />
         <MainSection />
         <div className="grid pt-8 grid-cols-12 gap-x-4">
-          <div className="col-span-1"></div>
-          <div className="col-span-7">
-            <div className="flex flex-row item-center pt-3 pb-4 justify-between">
-              <h1 className="text-white text-4xl font-medium">
-                Featured Writeups
-              </h1>
-              <p className="text-white text-lg font-medium underline">
-                View all (345 Articles)
-              </p>
+          <div className="md:col-span-1"></div>
+          <div className="col-span-12 md:col-span-7">
+            {/* <div>
+              <SectionTitle
+                title={"Featured Writeups"}
+                showViewAll={true}
+                count={13}
+              />
+              <AriticleList />
+              <AriticleList />
+            </div> */}
+            <div className="">
+              <SectionTitle
+                title={"Featured Projects"}
+                showViewAll={true}
+                count={8}
+              />
+              <AriticleList />
             </div>
-
-            <AriticleList />
-            <AriticleList />
-            <AriticleList />
           </div>
-          <div className="col-span-4">
-            <h1 className="text-white pt-3 pb-4 text-xl font-medium">My Reading List</h1>
+          <div className="md:col-span-4 col-span-12">
+            <ReadingListSection />
           </div>
         </div>
 
-        <div className="grid pt-8 grid-cols-12 mb-8">
+        {/* <div className="grid pt-8 grid-cols-12">
           <div className="col-span-1"></div>
-          <div className="col-span-7 px-2">
-            <div className="flex flex-row item-end py-3 justify-between">
-              <h1 className="text-white text-4xl font-medium">
-                Featured Projects
-              </h1>
-              <p className="text-white text-lg font-medium py-3 underline">
-                View all(24 projects)
-              </p>
-            </div>
-
-            <AriticleList />
-            <AriticleList />
-            <AriticleList />
+          <div className="col-span-11">
+            <SectionTitle title={"My Watch List"} showViewAll={false} />
           </div>
-          <div className="col-span-3"></div>
-        </div>
+        </div> */}
+        <div className="py-4 md:py-12"></div>
         <AppFooter />
       </div>
     </div>

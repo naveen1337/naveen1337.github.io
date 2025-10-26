@@ -14,7 +14,7 @@ export default function MainSection() {
             scalable solutions, using Node.js, Python,
             React, and PostgreSQL Technologies
           </p>
-          <p className="p-2 text-white text-[18px] md:text-[20px] md:w-3/4">Driven by a passion for transforming
+          <p className="hidden md:block p-2 text-white text-[18px] md:text-[20px] md:w-3/4">Driven by a passion for transforming
             real-world challenges into effective, practical solutions that
             simplify and streamline complex business operations</p>
         </div>

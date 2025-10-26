@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserratFont.variable} font-primary antialiased`}>{children}</body>
+      <body className={`${montserratFont.variable} font-primary antialiased text-white` }>{children}</body>
     </html>
   );
 }

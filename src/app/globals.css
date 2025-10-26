@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  color:"white"
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -18,3 +22,4 @@
 .debug{
   @apply outline-1 outline-red-600 outline-dashed
 }
+
