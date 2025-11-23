@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const data = [
   {
     name: "The Checklist Manifesto: How to Get Things Right",
@@ -39,7 +41,8 @@ export default function ReadingListSection() {
       <div className="">
         {data.map((item) => {
           return (
-            <div key={item.name} className="grid grid-cols-12 mb-8">
+            <Link key={item.name} href={item.url} target="_blank">
+            <div  className="grid grid-cols-12 mb-8">
               <div className="col-span-3 md:col-span-3 pb-1 md:pb-0 md:w-full ">
                 <img
                   src={item.image}
@@ -54,11 +57,13 @@ export default function ReadingListSection() {
                   </p>
                   <p className="pb-1 md:pb-2 text-sm md:text-base">- {item.author}</p>
                 </div>
-                <p className="text-gray-200 text-sm leading-5 bottom-0 line-clamp-2 md:line-clamp-5">
+                <p className="text-gray-200 text-sm leading-5 bottom-0 line-clamp-3 md:line-clamp-5">
                   {item.desc}
                 </p>
               </div>
             </div>
+          </Link>
+
           );
         })}
       </div>

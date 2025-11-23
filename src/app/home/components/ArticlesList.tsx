@@ -10,7 +10,7 @@ interface PropTypes {
 }
 export default function AriticleList(props: PropTypes) {
   return (
-    <div className="pb-3 border-b border-b-primary md:border-l-4 my-3 border-l-secondary border-gray-700">
+    <div className="pb-3 border-b border-b-primary md:border-l-4 my-4 md:my-3 border-l-secondary border-gray-700">
       <div className="pl-2 md:pl-4">
         <p className="md:pb-2 text-white text-base md:text-xl font-medium">
           {props.title}

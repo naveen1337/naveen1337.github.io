@@ -4,17 +4,17 @@ export default function MainSection() {
   return (
     <div>
       <div className="grid grid-cols-12 relative">
-        <div className="col-span-1 border-r border-gray-600"></div>
-        <div className="col-span-11 pt-6 pb-20 md:pb-28 bg-gradient-to-r from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.8)]   to-[rgba(0,0,0,0.2)] border-gray-600">
-          <p className="font-primary font-bold py-0 my-0 px-2 text-white text-[56px] md:text-[80px] leading-[4rem] md:leading-[6rem]">
+        <div className="md:col-span-1 border-r border-gray-600"></div>
+        <div className="col-span-12 md:col-span-11 pt-6 pb-20 md:pb-28 bg-gradient-to-r from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.8)]   to-[rgba(0,0,0,0.2)] border-gray-600">
+          <p className="font-primary font-bold py-0 my-0 px-2 text-white text-[52px] md:text-[80px] leading-[3.5rem] md:leading-[6rem]">
             Hi, I'm Naveen !
           </p>
-          <p className=" p-2 text-white text-[18px] md:text-[20px] md:w-3/4">
+          <p className=" p-2 text-white text-[16px] md:text-[20px] md:w-3/4">
             Full-stack web developer with 5 years of experience crafting
             scalable solutions, using Node.js, Python,
             React, and PostgreSQL Technologies
           </p>
-          <p className="hidden md:block p-2 text-white text-[18px] md:text-[20px] md:w-3/4">Driven by a passion for transforming
+          <p className="hidden md:block p-2 text-white text-[16px] md:text-[20px] md:w-3/4">Driven by a passion for transforming
             real-world challenges into effective, practical solutions that
             simplify and streamline complex business operations</p>
         </div>

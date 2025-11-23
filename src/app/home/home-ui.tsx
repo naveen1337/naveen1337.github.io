@@ -34,12 +34,13 @@ export default function Home() {
               <AriticleList />
               <AriticleList />
             </div> */}
-          <div id="projects-section" className="">
+          <div id="projects-section" className="px-2 md:px-0">
               <SectionTitle
                 title={"My Projects"}
                 showViewAll={true}
                 showViewLink="https://github.com/naveen1337"
               />
+              <div className="">
               {ProjectsData.map((item) => (
                 <AriticleList
                   key={item.id}
@@ -51,6 +52,8 @@ export default function Home() {
                   projectLink={item.project_link}
                 />
               ))}
+              </div>
+              
             </div>
           </div>
           <div className="md:col-span-4 col-span-12">
