@@ -5,12 +5,13 @@ const links = [
     {
         "key": "projects",
         "value": "Projects",
-        "href": "/projects",
+        "href": "#projects-section",
     },
     {
         "key": "blog",
         "value": "Blog",
-        "href": "/blog",
+        "href":"https://substack.com/@naveen1337",
+        "target":"_blank"
     },
     {
         "key": "github",

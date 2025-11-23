@@ -5,6 +5,7 @@ import HomeNavBar from "./components/home-navbar";
 import MainSection from "./components/main-section";
 import ReadingListSection from "./components/ReadingList";
 import SectionTitle from "@/shared-ui/atoms/SectionTitle";
+import ProjectsData from "../../assets/projects.json";
 
 export default function Home() {
   return (
@@ -33,13 +34,23 @@ export default function Home() {
               <AriticleList />
               <AriticleList />
             </div> */}
-            <div className="">
+          <div id="projects-section" className="">
               <SectionTitle
-                title={"Featured Projects"}
+                title={"My Projects"}
                 showViewAll={true}
-                count={8}
+                showViewLink="https://github.com/naveen1337"
               />
-              <AriticleList />
+              {ProjectsData.map((item) => (
+                <AriticleList
+                  key={item.id}
+                  id={item.id}
+                  title={item.title}
+                  date={item.date}
+                  description={item.description}
+                  readMoreLink={item.read_more_link}
+                  projectLink={item.project_link}
+                />
+              ))}
             </div>
           </div>
           <div className="md:col-span-4 col-span-12">

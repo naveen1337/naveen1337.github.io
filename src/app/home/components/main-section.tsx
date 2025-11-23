@@ -18,7 +18,7 @@ export default function MainSection() {
             real-world challenges into effective, practical solutions that
             simplify and streamline complex business operations</p>
         </div>
-        <Link target="_blank" href="#">
+        <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeS7MFBjY0Fxv28MPLpNSXuYg1MC0U6AKGN3wKhfBkNzEnVzQ/viewform?usp=dialog">
         <div className="py-4 md:py-6 absolute bottom-0 bg-gradient-to-r my-4 md:my-6  z-10 from-secondary via-primary w-full md:w-[480px] to-[rgba(0,0,0,0.0)]">
           <p className="text-center relative text-base tracking-[6px] uppercase text-white">
             Contact
