@@ -17,7 +17,7 @@ export default function Accounts() {
             />
           </svg>
         </Link>
-        <Link href={"https://www.linkedin.com/in/naveen1337/"} target="_blank" className={ss.elementContainer}>
+        <Link href={"https://x.com/naveen1337"} target="_blank" className={ss.elementContainer}>
           <div>
             <svg
               className={ss.icon}
@@ -32,7 +32,7 @@ export default function Accounts() {
             </svg>
           </div>
         </Link>
-        <Link href={"https://x.com/naveen1337"} target="_blank" className={ss.elementContainer}>
+        <Link href={"https://www.linkedin.com/in/naveen1337/"} target="_blank" className={ss.elementContainer}>
           <div className="">
             <svg
               className={ss.icon}
