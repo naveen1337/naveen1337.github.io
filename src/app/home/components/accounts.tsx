@@ -61,7 +61,7 @@ export default function Accounts() {
 const ss = {
   root: "grid grid-cols-12 items-end border-b border-gray-600",
   container:
-    "col-span-12 flex flex-row   space-x-3 md:space-x-0 md:flex-col md:col-span-1  border-r py-2 px-6 border-gray-600 ",
+    "col-span-12 flex flex-row   space-x-3 md:space-x-0 md:flex-col md:col-span-1  border-r py-2 px-2 md:px-6 border-gray-600 ",
   elementContainer: "flex items-center cursor-pointer justify-center",
   icon: "w-6 h-6 md:h-8 md:w-8",
   emptySpace1: "col-span-0 hidden md:col-span-6 md:block",
