@@ -1,8 +1,8 @@
 [{
     "id":"001",
-    "title":"Field Operation and survey application",
+    "title":"Field Canvassing and survey application",
     "date":"2022-01-10",
-"description":"Developed a field survey collection system for a U.S. territory, enabling seamless volunteer onboarding, group assignment, and guided data collection. The platform integrates census block maps to help volunteers accurately navigate and capture area-specific survey information. It streamlines coordination, improves data accuracy, and supports efficient large-scale field operations.",
+"description":"Developed a Canvassing survey collection system for a U.S. territory, enabling seamless volunteer onboarding, group assignment, and guided data collection. The platform integrates census block maps to help volunteers accurately navigate and capture area-specific survey information. It streamlines coordination, improves data accuracy, and supports efficient large-scale field operations.",
     "project_link":null,
     "read_more_link":null
 },

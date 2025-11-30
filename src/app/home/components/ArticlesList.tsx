@@ -20,7 +20,7 @@ export default function AriticleList(props: PropTypes) {
           {/* <p className="text-gray-200 text-xs md:text-sm">25 min read</p> */}
         </div>
         <div className="py-2">
-          <p className="text-white text-sm md:text-base line-clamp-3">
+          <p className="text-white text-sm md:text-base">
             {props.description}
           </p>
         </div>

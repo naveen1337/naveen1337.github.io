@@ -57,7 +57,7 @@ export default function ReadingListSection() {
                   </p>
                   <p className="pb-1 md:pb-2 text-sm md:text-base">- {item.author}</p>
                 </div>
-                <p className="text-gray-200 text-sm leading-5 bottom-0 line-clamp-3 md:line-clamp-5">
+                <p className="text-gray-200 text-sm leading-5 bottom-0 line-clamp-4 md:line-clamp-5">
                   {item.desc}
                 </p>
               </div>
